@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.header {
+    background-color: #c71585;
+    padding: 10px;
+    text-align: center;
+}
+.container-card {
+    background-color: black;
+    color: white;
+    width: 280px;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 70px;
+    display: inline-block;
+    vertical-align: top;
+}
+.container-card h1{
+    color:  #c71585;
+    padding-bottom: 5px;
+}
+.container-card button{
+    color: black;
+    background-color: #c71585;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-right: 16px;
+    padding-left: 16px;
+    border: none;
+    border-radius: 5px;
+}
+.container-button {
+    padding: 20px;
+    border-radius: 100%;
+    border: none;
+    background-color: #c71585;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popup-blank {
+    background-color: black;
+    position: absolute;
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    opacity: 0.8;
+    z-index: 1;
+    display: none;
+}
+.popup-card {
+    background-color: #c71585;
+    width: 40%;
+    position: absolute;
+    position: fixed;
+    z-index: 3;
+    left: 30%;
+    top: 20%;
+    padding: 20px;
+    border-radius: 5px;
+    display: none;
+}
+.popup-card input {
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 1px;
+    width: 95%;
+    padding: 10px;
+}
+.popup-card input:focus {
+    outline: none;
+}
+.popup-card textarea {
+    background-color: transparent;
+    border: solid black 1px;
+    width: 95%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 15px;
+}
+.popup-card textarea:focus {
+    outline: none;
+}
+.popup-card button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    vertical-align: top;
+}
